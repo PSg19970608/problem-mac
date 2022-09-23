@@ -1,0 +1,7 @@
+git:
+git remote add origin https://gitlab.cern.ch/shpeng/test.git
+touch test.md
+git add test.md
+git status
+git commit -m "first commit"  
+git push -u origin master      
